@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-warm-ivory: #EAE6DE;
+  --color-deep-editorial-blue: #226192;
+  --color-coral-orange: #EF8557;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EAE6DE;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(34, 97, 146, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(239, 133, 87, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(234, 230, 222, 0.6) 0%, transparent 100%);
+  background-attachment: fixed;
+  color: #133553;
+}
+
+/* Custom Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #EAE6DE;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBC2B1;
+  border-radius: 5px;
+  border: 2px solid #EAE6DE;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #226192;
+}
+
+.min-h-screen {
+  min-height: 80vh;
+}
+
+.max-w-22 {
+  max-width: 22rem;
+}
