@@ -242,13 +242,6 @@ Smart-Library-Management-System/
 
 **Project Name:** Smart Library Management System  
 **Student:** Lakshay  
-**UID:** 26MCD10093  
-**Program:** MCA (Data Science)  
-**Section:** B  
-**Semester:** 1st Semester  
-**University:** Chandigarh University  
-**Academic Session:** 2026–27
-
 ---
 
 **Smart Library Management System — Simplifying Library Operations, Organizing Resources, and Managing Books Efficiently.**
